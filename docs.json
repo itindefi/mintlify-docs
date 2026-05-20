@@ -7,7 +7,7 @@
     "light": "#9CA8FF",
     "dark": "#4B3DFF"
   },
-  "logo": "/images/logo.png",
+  "logo": "/images/logo2.png",
   "favicon": "/images/logo.png",
   "topbar": {
     "cta": {
@@ -88,5 +88,8 @@
   },
   "thumbnails": {
     "appearance": "dark"
+  },
+  "navbar": {
+    "links": []
   }
 }
