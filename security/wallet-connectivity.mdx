@@ -1,0 +1,96 @@
+---
+title: "Wallet Connectivity"
+description: "How indeFi interacts with your Web3 wallet and blockchain networks"
+---
+
+# Wallet Connectivity & Blockchain Interaction
+
+Because indeFi.io operates using blockchain settlement rails, users interact with the platform through standard Web3 wallet connections.
+
+## Standard Interactions
+
+Users may be prompted to:
+
+<CardGroup cols={3}>
+  <Card title="Connect Wallet" icon="wallet">
+    Link your Web3 wallet to the platform
+  </Card>
+  <Card title="Sign Messages" icon="signature">
+    Authenticate your identity via message signing
+  </Card>
+  <Card title="Authorize Transfers" icon="arrow-right-arrow-left">
+    Approve supported digital asset transfers
+  </Card>
+</CardGroup>
+
+<Info>
+These interactions are **standard blockchain-based authentication and settlement procedures** necessary for intended platform functionality.
+</Info>
+
+## Security Assurances
+
+<Warning>
+**Critical:** The platform does **not** utilize hidden wallet-draining logic or malicious approval mechanisms.
+</Warning>
+
+indeFi commits to:
+
+| Commitment | Description |
+|------------|-------------|
+| **Transparent Transactions** | All transaction details are visible before signing |
+| **Limited Approvals** | No unlimited token spending approvals |
+| **Standard Methods** | Using industry-standard wallet connection protocols |
+| **Clear Communication** | Explaining what each transaction does |
+
+## Supported Wallets
+
+indeFi supports connection via:
+
+- **MetaMask** - The most popular browser extension wallet
+- **WalletConnect** - Connect mobile and desktop wallets
+- **Coinbase Wallet** - Coinbase's self-custody wallet
+- Other WalletConnect-compatible wallets
+
+## What to Expect
+
+### Wallet Connection
+
+When connecting your wallet, you will see:
+- A connection request from `indefi.io`
+- The wallet address being connected
+- Permission to view your wallet address
+
+### Message Signing
+
+For authentication, you may sign a message that:
+- Proves ownership of your wallet
+- Contains a timestamp or nonce for security
+- Does **not** authorize any token transfers
+
+### Transaction Approval
+
+For deposits or withdrawals:
+- Clear transaction details showing exact amounts
+- Destination address visibility
+- Gas fee estimates
+- Ability to reject before signing
+
+## Red Flags to Avoid
+
+<Warning>
+**Do NOT proceed if you see:**
+- Requests for unlimited token approvals
+- Transactions to unknown addresses
+- Pressure to sign quickly without reviewing
+- Requests for your private key or seed phrase
+- URLs that are not exactly `indefi.io`
+</Warning>
+
+## Verifying Authenticity
+
+Before connecting:
+
+1. **Check the URL** - Ensure you're on `indefi.io` (not a lookalike)
+2. **Verify SSL** - Look for the padlock icon in your browser
+3. **Review Requests** - Read all wallet prompts carefully
+4. **Start Small** - Consider a small test transaction first

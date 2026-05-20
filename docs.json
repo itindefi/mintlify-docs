@@ -1,0 +1,85 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "indeFi Documentation",
+  "colors": {
+    "primary": "#10B981",
+    "light": "#34D399",
+    "dark": "#059669"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "topbar": {
+    "cta": {
+      "name": "Launch App",
+      "url": "https://indefi.io"
+    }
+  },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "/"
+    },
+    {
+      "name": "Security",
+      "url": "/security/overview"
+    }
+  ],
+  "anchors": [
+    {
+      "anchor": "Website",
+      "href": "https://indefi.io",
+      "icon": "globe"
+    },
+    {
+      "anchor": "Support",
+      "href": "mailto:support@indefi.io",
+      "icon": "envelope"
+    }
+  ],
+  "footer": {
+    "socials": {
+      "website": "https://indefi.io"
+    }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "platform-overview",
+          "getting-started"
+        ]
+      },
+      {
+        "group": "Platform",
+        "pages": [
+          "platform/classification",
+          "platform/allocation-model",
+          "platform/treasury-management"
+        ]
+      },
+      {
+        "group": "Security & Compliance",
+        "pages": [
+          "security/overview",
+          "security/custody",
+          "security/wallet-connectivity",
+          "security/compliance"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "resources/whitepaper",
+          "resources/faq",
+          "resources/contact"
+        ]
+      }
+    ]
+  }
+}

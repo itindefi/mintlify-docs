@@ -1,0 +1,87 @@
+---
+title: "Custody & Asset Flow"
+description: "How indeFi handles digital asset custody and the flow of user assets"
+---
+
+# Custody & Asset Flow
+
+Understanding how your digital assets are handled within the indeFi platform.
+
+## Deposit Process
+
+Users deposit supported digital assets through supported blockchain networks:
+
+```mermaid
+flowchart LR
+    A[User Wallet] -->|Deposit Transaction| B[indeFi Platform]
+    B -->|Verification| C[Treasury Allocation]
+    C -->|Management| D[Allocation Infrastructure]
+```
+
+<Steps>
+  <Step title="Connect Wallet">
+    Connect your Web3 wallet to the indeFi platform
+  </Step>
+  <Step title="Initiate Deposit">
+    Select the amount and confirm the deposit transaction
+  </Step>
+  <Step title="Transaction Confirmation">
+    Wait for blockchain confirmation of your deposit
+  </Step>
+  <Step title="Allocation">
+    Assets are allocated to your selected duration structure
+  </Step>
+</Steps>
+
+## Asset Management
+
+Assets may subsequently be allocated across internal treasury and allocation infrastructure managed by the platform.
+
+indeFi maintains centralized operational oversight regarding:
+
+| Function | Description |
+|----------|-------------|
+| **Treasury Coordination** | Central management of all treasury operations |
+| **Liquidity Management** | Oversight of available liquidity and reserves |
+| **Allocation Administration** | Management of user allocations across structures |
+| **Operational Accounting** | Accurate tracking of all asset movements |
+
+## Custody Model
+
+<Warning>
+**Important:** indeFi does not represent itself as a self-custodial wallet provider.
+</Warning>
+
+When you deposit assets to indeFi:
+
+- Assets are transferred to platform-controlled infrastructure
+- The platform manages allocation and treasury operations
+- Users maintain the right to withdraw according to their allocation terms
+- All operations are conducted under centralized oversight
+
+## Withdrawal Process
+
+```mermaid
+flowchart LR
+    A[Withdrawal Request] -->|Verification| B[Treasury Review]
+    B -->|Processing| C[Asset Release]
+    C -->|Transaction| D[User Wallet]
+```
+
+Withdrawal availability depends on:
+
+- Your allocation's lock-up duration
+- Current liquidity conditions
+- Platform operational status
+
+<Info>
+Specific withdrawal procedures and timelines are outlined in your allocation terms at the time of deposit.
+</Info>
+
+## Blockchain Interactions
+
+All deposits and withdrawals occur on-chain, providing:
+
+- **Transparency** - Verifiable transaction history
+- **Security** - Cryptographic transaction verification
+- **Immutability** - Permanent record of all movements
