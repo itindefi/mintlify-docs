@@ -82,5 +82,8 @@
   "description": "inDeFi Documentation",
   "seo": {
     "indexing": "all"
+  },
+  "appearance": {
+    "strict": false
   }
 }
