@@ -85,5 +85,8 @@
   },
   "appearance": {
     "strict": false
+  },
+  "thumbnails": {
+    "appearance": "dark"
   }
 }
