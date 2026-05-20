@@ -1,17 +1,14 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "indeFi Documentation",
+  "name": "inDeFi Documentation",
   "colors": {
-    "primary": "#10B981",
-    "light": "#34D399",
-    "dark": "#059669"
+    "primary": "#6B63FF",
+    "light": "#9CA8FF",
+    "dark": "#4B3DFF"
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "favicon": "/favicon.svg",
+  "logo": "/images/logo.png",
+  "favicon": "/images/logo.png",
   "topbar": {
     "cta": {
       "name": "Launch App",
