@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "sequoia",
   "name": "inDeFi Documentation",
   "colors": {
     "primary": "#6B63FF",
@@ -79,5 +79,8 @@
       }
     ]
   },
-  "description": "inDeFi Documentation"
+  "description": "inDeFi Documentation",
+  "seo": {
+    "indexing": "all"
+  }
 }
