@@ -52,10 +52,11 @@ Operationally, assets are managed through internal treasury segmentation framewo
 ```mermaid
 flowchart LR
     A[User Deposits] --> B[Treasury]
-    B --> C[Operations]
     B --> D[Allocation Infrastructure]
-    C --> E[Platform Operations]
     D --> F[Yield Generation]
+    B --> G[Treasury Earnings]
+    G --> C[Operations]
+    C --> E[Platform Operations]
 ```
 
 This structure improves:
