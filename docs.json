@@ -91,5 +91,8 @@
   },
   "navbar": {
     "links": []
+  },
+  "icons": {
+    "library": "fontawesome"
   }
 }
